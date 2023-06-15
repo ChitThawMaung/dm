@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Cover */
+.container-fluid {
+    width: 100%;
+    min-height: 450px;
+}
+
+.container-fluid img {
+    z-index: -2;
+}
+
+.img-text {
+    margin-left: 100px;
+}
+
+.btn {
+    background-color: rgba(152, 150, 146, 0.739);
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(236, 217, 192);
+    color: black;
+    font-weight: 500;
+    border: 2px solid black;
+}
