@@ -1,16 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Main Cover */
-.container-fluid {
-    width: 100%;
+.main {
     min-height: 450px;
 }
 
-.container-fluid img {
+.main img {
     z-index: -2;
 }
 
