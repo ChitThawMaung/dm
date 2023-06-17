@@ -23,10 +23,10 @@
 }
 
 .btn {
-    background-color: rgba(152, 150, 146, 0.739);
+    background-color: rgb(102, 175, 7);
     color: white;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px 15px;
     border: 1px solid white;
     transition: 0.5s;
@@ -48,6 +48,10 @@
      .shop-name {
       font-size: 30px;
       font-family: 'Lobster', cursive;
+     }
+
+     .title-name {
+        font-family: 'Righteous', cursive;
      }
 }
 
@@ -87,5 +91,9 @@
     .shop-name {
      font-size: 15px;
      font-family: 'Lobster', cursive;
+    }
+
+    .btn {
+        font-size: 12px;
     }
  }
