@@ -53,6 +53,14 @@
      .title-name {
         font-family: 'Righteous', cursive;
      }
+
+     .items img {
+        transition: 0.5s;
+     }
+
+     .items img:hover {
+          transform: scale(1.1);
+     }
 }
 
 @media (max-width:900px) {

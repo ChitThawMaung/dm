@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +35,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- ImageHover -->
+    <link rel="stylesheet" href="./Library/imagehover.css-master/css/imagehover.min.css">
 </head>
 <body>
     <!-- Navbar Start -->
@@ -50,7 +57,7 @@
                 <a class="nav-link text-white" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#"><i class="fa-brands fa-shopify"></i> Shop</a>
+                <a class="nav-link text-white" href="#shop"><i class="fa-brands fa-shopify"></i> Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" aria-current="page" href="#"><i class="fa-regular fa-address-card"></i> About</a>
@@ -83,56 +90,54 @@
       <!-- Main Cover End -->
 
       <!-- Item List Start  -->
-      <div class="container-fluid mt-3">
+      <div class="container-fluid mt-3" id="shop">
          <div class="row">
-            <h5 class="py-2 ms-2"><b>Product List</b></h5>
+            <h5 class="py-2 ms-2 mb-4"><b>Product List</b></h5>
 
-            <div class="row m-auto">
+            <div class="row m-auto px-4 animate__animated animate__fadeInUp">
               <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
                 <div class="items">
                     <img src="juice1.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
                     <h3 class="fs-5 my-2">Orange Juice</h3>
                     <p class="">
-                        <a href="#" class="text-danger text-decoration-none">2000 Ks</a>
+                        <a href="#" class="text-dark fw-bold text-decoration-none"><i class="fa-solid fa-money-bill-1-wave"></i> 2000 Ks</a>
                     </p>
                 </div>
-            </div>
+              </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
-              <div class="items">
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-3 animate__animated animate__fadeInUp">
+                <div class="items">
                   <img src="juice2.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
                   <h3 class="fs-5 my-2">Pineapple Juice</h3>
                   <p class="">
-                      <a href="#" class="text-danger text-decoration-none">3000 Ks</a>
+                      <a href="#" class="text-dark fw-bold text-decoration-none"><i class="fa-solid fa-money-bill-1-wave"></i> 3000 Ks</a>
                   </p>
+                </div>
               </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
-              <div class="items">
-                  <img src="juice2.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
-                  <h3 class="fs-5 my-2">Bubble Milk Tea</h3>
-                  <p class="">
-                      <a href="#" class="text-danger text-decoration-none">4000 Ks</a>
-                  </p>
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-3 animate__animated animate__fadeInUp">
+                <div class="items">
+                    <img src="juice2.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
+                    <h3 class="fs-5 my-2">Bubble Milk Tea</h3>
+                    <p class="">
+                        <a href="#" class="text-dark fw-bold text-decoration-none"><i class="fa-solid fa-money-bill-1-wave"></i> 4000 Ks</a>
+                    </p>
+                </div>
               </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
-              <div class="items">
-                  <img src="juice2.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
-                  <h3 class="fs-5 my-2">Bubble Milk Tea</h3>
-                  <p class="">
-                      <a href="#" class="text-danger text-decoration-none">4000 Ks</a>
-                  </p>
+              <div class="col-lg-3 col-md-6 col-sm-6 mb-3 animate__animated animate__fadeInUp">
+                <div class="items">
+                    <img src="juice2.jpg" class="w-100 img-thumbnail shadow-sm" style="height:300px">
+                    <h3 class="fs-5 my-2">Bubble Milk Tea</h3>
+                    <p class="">
+                        <a href="#" class="text-dark fw-bold text-decoration-none"><i class="fa-solid fa-money-bill-1-wave"></i> 4000 Ks</a>
+                    </p>
+                </div>
               </div>
-            </div>
-            
             </div>
          </div>
       </div>
-
-    
+  
 </body>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
