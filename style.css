@@ -34,13 +34,53 @@
     border: 2px solid black;
 }
 
-@media (max-width:480px) {
-   .title-text {
-    font-size: 25px;
-    margin-bottom: 15px;
-   }
-
-   .shop-name {
-    font-size: 15px;
-   }
+@media (max-width:1600px) {
+    .title-text {
+      font-size: 80px;
+      font-family: 'Dancing Script', cursive;
+     }
+  
+     .shop-name {
+      font-size: 30px;
+      font-family: 'Lobster', cursive;
+     }
 }
+
+@media (max-width:900px) {
+    .title-text {
+      font-size: 60px;
+      font-family: 'Dancing Script', cursive;
+      margin-bottom: 15px;
+     }
+  
+     .shop-name {
+      font-size: 30px;
+      font-family: 'Lobster', cursive;
+     }
+}
+
+@media (max-width:768px) {
+    .title-text {
+      font-size: 45px;
+      margin-bottom: 15px;
+      font-family: 'Dancing Script', cursive;
+     }
+  
+     .shop-name {
+      font-size: 25px;
+      font-family: 'Lobster', cursive;
+     }
+}
+
+@media (max-width:480px) {
+    .title-text {
+     font-size: 25px;
+     margin-bottom: 15px;
+     font-family: 'Dancing Script', cursive;
+    }
+ 
+    .shop-name {
+     font-size: 15px;
+     font-family: 'Lobster', cursive;
+    }
+ }
