@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* NavBar Start  */
+.navbar {
+    background-color: rgb(131, 183, 20);
+}
+
 /* Main Cover */
 .main {
     min-height: 450px;
